@@ -29,19 +29,20 @@ From this data we can see that we do have a significant drop in the performance 
 
 We can see the data before and after in the images below
 
+Before:
 ![Capture3.PNG](/Resources/Capture3.PNG)
 
-
+After:
 ![Capture4.PNG](/Resources/Capture4.PNG)
 
 ### Top 5 Schools
 
 After replacing the math and reading scores of ninth graders at Thomas High School with NaN and performing the analysis based on the new student count that excludes the ninth grade students of Thomas High School, we can see that Thomas High School's position has been dropped from the second place and replaced by Griffin High School.
 
-You can see prior to the adjustments Thomas heald the 2nd place position...
+Prior to the adjustments Thomas held the 2nd place position.
 ![Capture6.PNG](/Resources/Capture6.PNG)
 
-Though once correction where made in our investigation we see Griffin move to that position.
+After corrections were made during our investigation we see Griffin move into 2nd position.
 
 ![Capture5.PNG](/Resources/Capture5.PNG)
 
@@ -51,15 +52,15 @@ Replacing the ninth graders scores at Thomas High School did not have any effect
 
 ### Math & Reading Scored By Grade
 
-The per_school_summary_original_df dataframe analyzes the data after we have replaced the ninth grade math and reading scores with Nan but have not replaced the school summary dataframe with new passing percentages for 10th to 12th graders for Thomas High School as instructed in steps 5 to 12. In this case,
+The per_school_summary_original_df dataframe analyzes the data after we have replaced the ninth grade math and reading scores with NaN, but before we update the school_summary_dataframe with new passing percentages for 10th to 12th graders for Thomas High School as instructed in steps 5 to 12. At this point:
 
-* math by grade score shows NaN for Thomas High School 9th graders.
+* Math score by grade shows NaN for Thomas High School 9th graders.
 
 ![Capture7.PNG](/Resources/Capture7.PNG)
 
-* Reading by grade also shows NaN for Thomas High School 9th graders.
+* Reading score by grade shows NaN for Thomas High School 9th graders.
 
-![Capture8.PNG](/Resources/Capture8.PNG)
+![Capture8.PNG](/Resources/Captur8.PNG)
 
 ### Scores By School Spending
 
@@ -77,7 +78,7 @@ After
 
 ### Scores By School Size
 
-In terms of school size, there were no changes in scores for small and large schools.Only the scores for medium schools have been affected.
+In terms of school size, there were no changes in scores for small and large schools. Only the scores for midsize schools have been affected.
 
 * % Passing Math reduced from 94% to 88%
 * % Passing Reading reduced from 97% to 91%
@@ -88,7 +89,7 @@ In terms of school size, there were no changes in scores for small and large sch
 
 ### Schools By Type
 
-It would seem that only the Charter school leve has been affected while the District level remains unchanged.
+It would seem that only the Charter school category has been affected while the District wide scores remains unchanged.
 
 * Passing Math reduced from 94% to 90%
 * Passing reading reduced from 97% to 93%
@@ -98,5 +99,5 @@ It would seem that only the Charter school leve has been affected while the Dist
 
 ## Summary
 
-We can now conclude that with Thomas Highschool the performance of grades other than the 9th grade class remained consistent when we analyzed the data, we see a drop in the High schools overall performance in reference to other schools once we started to exclude the data of the 9th grade students. Factoring in our new formating we saw a performance drop in Charter schools overall.
-In the end we were able to see the affect that just one grade level had on the data for the type of school as well as the size of the school. 
+We can now conclude that while the performance of grades other than the 9th within Thomas High School remained consistent after we corrected the data, we saw a drop in the schools overall performance in reference to other schools once we started to exclude the data of the 9th grade students. Factoring in our new formatting we saw a performance drop in Charter schools overall. Even after the decrease in performance in the Charter school category, the overall District performance was not overly effected.
+In the end we were able to see the effect that just one grade level had on the data for the type of school as well as the size of the school. 
